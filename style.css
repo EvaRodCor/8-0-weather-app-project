@@ -22,9 +22,8 @@ header {
 
 
 article {
-    grid-column: 8/10;
+    grid-column: 8/11;
     margin-left: 1rem;
-    font-style: italic;
     color: #000000;
 }
 
@@ -39,10 +38,18 @@ header form {
 }
 
 
+ul li {
+    padding: 5px;
+}
 
 
-
-
+.daysAfter {
+display: grid;
+grid-column: 2/9;
+grid-template-columns: 0.4fr 0.4fr 0.4fr;
+border: 2px solid white;
+background-color: white;
+}
 
 
 

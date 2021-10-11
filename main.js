@@ -20,7 +20,7 @@ document.querySelector("form").addEventListener("submit", (event) => {
         <p>Currently: Feels like ${locationFeelsLike}°F</p>`
         
         
-        const lastSearch = document.querySelector(".history");
+        // const lastSearch = document.querySelector(".history");
         const li = document.createElement("li");
         li.innerHTML = `<a href="#">${city}_</a>${locationFeelsLike}°F`
         document.querySelector("ul").append(li)
@@ -56,6 +56,8 @@ document.querySelector("form").addEventListener("submit", (event) => {
                 
             }
         })
+        .catch(console.log)
+        event.target.reset()
         document.querySelector(".history aside ul p").textContent = "";          
     })
         

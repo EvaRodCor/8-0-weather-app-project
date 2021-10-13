@@ -5,7 +5,7 @@ section {
   
   
   header {
-    background:rgb(10, 10, 114);
+    background-image: linear-gradient(to right, rgb(2, 11, 53) , rgb(38, 56, 158));
     grid-column: 3/10;
     border: 2px solid black;
     padding:1.5em;
@@ -17,7 +17,7 @@ section {
     grid-column: 3/8;
     margin-top: 20px;
     border-radius: 25px;
-    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(rgb(61, 61, 63), black);
     text-align: center;
     opacity: 500%;
     color: white;

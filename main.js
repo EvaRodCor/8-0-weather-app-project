@@ -20,9 +20,8 @@ document.querySelector("form").addEventListener("submit", (event) => {
         <p>Currently: Feels like ${locationFeelsLike}°F</p>`
         
         
-        // const lastSearch = document.querySelector(".history");
         const li = document.createElement("li");
-        li.innerHTML = `<a href="#">${city}_</a>${locationFeelsLike}°F`
+        li.innerHTML = `<a href="#">${city}</a> - ${locationFeelsLike}°F`
         document.querySelector("ul").append(li)
         
         li.addEventListener("click", (event) => {
